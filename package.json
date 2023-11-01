@@ -82,7 +82,7 @@
     "ws": "^5.2.0"
   },
   "scripts": {
-    "build": "node scripts/build-from-source.j",
+    "build": "node scripts/build-from-source.js",
     "install-example": "node scripts/install-example.js",
     "lint": "eslint lib/*.js lib/**/*.js test/*.js test/**/*.js karma/*.js scripts/*.js",
     "publish-binary": "node scripts/publish.js",
